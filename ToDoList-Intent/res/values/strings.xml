@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ToDoList!</string>
+    <string name="app_name">ToDo List</string>
+    <string name="add_new_item">Add New Item</string>
+    <string name="remove_item">Remove Item</string>
+     <string name="edit_item">Edit Item</string>
+    <string name="list_view_item_context_menu_title">Selected Item</string>
+    <string name="ok">OK</string>
+     <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="remove_confirm_message">Are you sure you want to remove element ?</string>
+    <string name="todo_item_title">Title:</string>
+    <string name="todo_item_date">Date:</string>
+    <string name="todo_item_text">Text:</string>
+</resources>

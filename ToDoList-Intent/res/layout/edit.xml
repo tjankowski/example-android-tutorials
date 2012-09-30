@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<my.todolist.ToDoListItemView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:padding="10dp"
+	android:scrollbars="vertical"
+	android:textColor="@color/notepad_text"
+	android:fadingEdge="vertical"
+	android:textStyle="bold"
+	android:text="@string/todo_item_date"
+/>
+<my.todolist.ToDoListItemView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:padding="10dp"
+	android:scrollbars="vertical"
+	android:textColor="@color/notepad_text"
+	android:fadingEdge="vertical"
+	android:id="@+id/dateTextView"
+/>
+<my.todolist.ToDoListItemView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:padding="10dp"
+	android:scrollbars="vertical"
+	android:textColor="@color/notepad_text"
+	android:fadingEdge="vertical"
+	android:textStyle="bold"
+	android:text="@string/todo_item_title"
+/>
+<my.todolist.ToDoEditText 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:padding="10dp"
+	android:textColor="@color/notepad_text"
+	android:fadingEdge="vertical"
+	android:id="@+id/titleEditView" 
+	/>
+<my.todolist.ToDoListItemView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:padding="10dp"
+	android:scrollbars="vertical"
+	android:textColor="@color/notepad_text"
+	android:fadingEdge="vertical"
+	android:textStyle="bold"
+	android:text="@string/todo_item_text"
+/>
+<my.todolist.ToDoEditText 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:padding="10dp"
+	android:textColor="@color/notepad_text"
+	android:fadingEdge="vertical"
+	android:id="@+id/textEditView" 
+	/>
+</LinearLayout>

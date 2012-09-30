@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    >
+	<TextView
+		android:id="@+id/quantity"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:padding="10dp"
+		android:scrollbars="vertical"
+		android:fadingEdge="vertical"
+		android:layout_alignParentRight="true"
+		android:textColor="@color/text_color"
+		/>
+	<TextView
+		android:id="@+id/walletItem"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:padding="10dp"
+		android:scrollbars="vertical"
+		android:fadingEdge="vertical"
+		android:layout_alignParentLeft="@+id/quantity"
+		android:textColor="@color/text_color"
+		/>
+</RelativeLayout>

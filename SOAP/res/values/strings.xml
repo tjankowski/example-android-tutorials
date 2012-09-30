@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">Symulator funuszy</string>
+    <string name="wallet">Portfel</string>
+    <string name="funds">Fundusze</string>
+    <string name="wallet_actions">Portfel - menu</string>
+    <string name="sell">Sprzedaj</string>
+    <string name="buy">Kup</string>
+    <string name="refresh">Odśwież</string>
+    <string name="fund_unit_sold">Sprzedano jednostkę funduszu</string>
+    <string name="fund_unit_buy">Kupiono jednostkę funduszu</string>
+    <string name="wallet_refreshed">Odświeżono portfel</string>
+    <string name="funds_refreshed">Odświeżono fundusze</string>
+    <string name="error">Błąd</string>
+    <string name="not_enough_money">Brak funduszy</string>
+</resources>

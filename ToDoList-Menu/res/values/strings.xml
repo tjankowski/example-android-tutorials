@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ToDoList!</string>
+    <string name="app_name">ToDo List</string>
+    <string name="add_new_item">Add New Item</string>
+    <string name="remove_item">Remove Item</string>
+    <string name="list_view_item_context_menu_title">Selected Item</string>
+    <string name="cancel">Cancel</string>
+</resources>
